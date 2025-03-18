@@ -23,8 +23,7 @@ Now it is installed in your python packages
 
 ```py
 from python_visma import visma
-
-api = visma()
+api = visma("https://school.inschool.visma.no/")
 api.Username = "Your username"
 api.Password = "Your password"
 ```
